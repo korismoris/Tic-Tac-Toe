@@ -1,0 +1,31 @@
+html {
+  background-color: #f5f5f5;
+  background-size: cover;
+  font-family: 'Baloo Bhaina 2', cursive;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 45px;
+  letter-spacing: 5px;
+  text-align: center;
+  margin-top: 20px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  display: grid;
+  height: 492px;
+  width: 750px;
+  grid-template-columns: repeat(3, 33%);
+  grid-template-rows: repeat(3, 33%);
+}
+
+.box {
+  border: 1px solid	#FF6347
+}
+
+
+
